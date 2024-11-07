@@ -34,9 +34,7 @@ The dataset underwent thorough verification for consistency in Actual Arrival De
 
 The cleaned dataset, containing about 30 million records, was exported in .pickle format, reducing memory usage from an initial 81 GB to under 3 GB.
 
-## Exploratory Data Analysis
-
-Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 During the EDA stage, we visually observed variations in the mean Actual Arrival Delays across months and weekdays; however, hypothesis testing revealed no statistically significant difference between these time periods. However, Chi-square tests confirmed a significant variation in delays across different airports and airlines at the 5% significance level. Additionally, both visualizations and Chi-square tests highlighted a strong relationship between Actual Arrival Delay and departure/arrival time blocks.
 
