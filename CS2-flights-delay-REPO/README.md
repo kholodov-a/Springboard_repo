@@ -31,7 +31,7 @@ Key findings:
 
 The dataset underwent thorough verification for consistency in Actual Arrival Delays. Records with unresolved inconsistencies, such as large mismatches between elapsed and scheduled flight times, were removed (less than 2% of the dataset).
 
-The cleaned dataset was exported in .pickle format, reducing memory usage from an initial 81 GB to under 3 GB.
+The cleaned dataset, containing about 30 million records, was exported in .pickle format, reducing memory usage from an initial 81 GB to under 3 GB.
 
 
 
