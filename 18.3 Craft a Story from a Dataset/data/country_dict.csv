@@ -1,0 +1,194 @@
+,CountryCode,Country,Region,RegionCode,WBIncomeCode
+0,AFG,Afghanistan,Eastern Mediterranean,EMR,Low income
+1,AGO,Angola,Africa,AFR,
+2,ALB,Albania,Europe,EUR,Upper middle income
+3,AND,Andorra,Europe,EUR,High income
+4,ARE,United Arab Emirates,Eastern Mediterranean,EMR,High income
+5,ARG,Argentina,Americas,AMR,Upper middle income
+6,ARM,Armenia,Europe,EUR,Upper middle income
+7,ATG,Antigua and Barbuda,Americas,AMR,
+8,AUS,Australia,Western Pacific,WPR,High income
+9,AUT,Austria,Europe,EUR,High income
+10,AZE,Azerbaijan,Europe,EUR,Upper middle income
+11,BDI,Burundi,Africa,AFR,Low income
+12,BEL,Belgium,Europe,EUR,High income
+13,BEN,Benin,Africa,AFR,Lower middle income
+14,BFA,Burkina Faso,Africa,AFR,Low income
+15,BGD,Bangladesh,South-East Asia,SEAR,Lower middle income
+16,BGR,Bulgaria,Europe,EUR,High income
+17,BHR,Bahrain,Eastern Mediterranean,EMR,High income
+18,BHS,Bahamas,Americas,AMR,High income
+19,BIH,Bosnia and Herzegovina,Europe,EUR,Upper middle income
+20,BLR,Belarus,Europe,EUR,Upper middle income
+21,BLZ,Belize,Americas,AMR,Upper middle income
+22,BOL,Bolivia (Plurinational State of),Americas,AMR,Lower middle income
+23,BRA,Brazil,Americas,AMR,Upper middle income
+24,BRB,Barbados,Americas,AMR,High income
+25,BRN,Brunei Darussalam,Western Pacific,WPR,High income
+26,BTN,Bhutan,South-East Asia,SEAR,Lower middle income
+27,BWA,Botswana,Africa,AFR,Upper middle income
+28,CAF,Central African Republic,Africa,AFR,
+29,CAN,Canada,Americas,AMR,High income
+30,CHE,Switzerland,Europe,EUR,High income
+31,CHL,Chile,Americas,AMR,High income
+32,CHN,China,Western Pacific,WPR,Upper middle income
+33,CIV,Cote d'Ivoire,Africa,AFR,Lower middle income
+34,CMR,Cameroon,Africa,AFR,Lower middle income
+35,COD,Democratic Republic of the Congo,Africa,AFR,Low income
+36,COG,Congo,Africa,AFR,Lower middle income
+37,COK,Cook Islands,Western Pacific,WPR,
+38,COL,Colombia,Americas,AMR,Upper middle income
+39,COM,Comoros,Africa,AFR,Lower middle income
+40,CPV,Cabo Verde,Africa,AFR,Lower middle income
+41,CRI,Costa Rica,Americas,AMR,Upper middle income
+42,CUB,Cuba,Americas,AMR,Upper middle income
+43,CYP,Cyprus,Europe,EUR,High income
+44,CZE,Czechia,Europe,EUR,High income
+45,DEU,Germany,Europe,EUR,High income
+46,DJI,Djibouti,Eastern Mediterranean,EMR,
+47,DMA,Dominica,Americas,AMR,
+48,DNK,Denmark,Europe,EUR,High income
+49,DOM,Dominican Republic,Americas,AMR,Upper middle income
+50,DZA,Algeria,Africa,AFR,Upper middle income
+51,ECU,Ecuador,Americas,AMR,Upper middle income
+52,EGY,Egypt,Eastern Mediterranean,EMR,Lower middle income
+53,ERI,Eritrea,Africa,AFR,
+54,ESP,Spain,Europe,EUR,High income
+55,EST,Estonia,Europe,EUR,High income
+56,ETH,Ethiopia,Africa,AFR,Low income
+57,FIN,Finland,Europe,EUR,High income
+58,FJI,Fiji,Western Pacific,WPR,Upper middle income
+59,FRA,France,Europe,EUR,High income
+60,FSM,Micronesia (Federated States of),Western Pacific,WPR,
+61,GAB,Gabon,Africa,AFR,
+62,GBR,United Kingdom of Great Britain and Northern Ireland,Europe,EUR,High income
+63,GEO,Georgia,Europe,EUR,Upper middle income
+64,GHA,Ghana,Africa,AFR,Lower middle income
+65,GIN,Guinea,Africa,AFR,
+66,GMB,Gambia,Africa,AFR,Low income
+67,GNB,Guinea-Bissau,Africa,AFR,Low income
+68,GNQ,Equatorial Guinea,Africa,AFR,
+69,GRC,Greece,Europe,EUR,High income
+70,GRD,Grenada,Americas,AMR,
+71,GTM,Guatemala,Americas,AMR,Upper middle income
+72,GUY,Guyana,Americas,AMR,High income
+73,HND,Honduras,Americas,AMR,Lower middle income
+74,HRV,Croatia,Europe,EUR,High income
+75,HTI,Haiti,Americas,AMR,Lower middle income
+76,HUN,Hungary,Europe,EUR,High income
+77,IDN,Indonesia,South-East Asia,SEAR,Upper middle income
+78,IND,India,South-East Asia,SEAR,Lower middle income
+79,IRL,Ireland,Europe,EUR,High income
+80,IRN,Iran (Islamic Republic of),Eastern Mediterranean,EMR,Upper middle income
+81,IRQ,Iraq,Eastern Mediterranean,EMR,Upper middle income
+82,ISL,Iceland,Europe,EUR,High income
+83,ISR,Israel,Europe,EUR,High income
+84,ITA,Italy,Europe,EUR,High income
+85,JAM,Jamaica,Americas,AMR,Upper middle income
+86,JOR,Jordan,Eastern Mediterranean,EMR,Lower middle income
+87,JPN,Japan,Western Pacific,WPR,High income
+88,KAZ,Kazakhstan,Europe,EUR,Upper middle income
+89,KEN,Kenya,Africa,AFR,Lower middle income
+90,KGZ,Kyrgyzstan,Europe,EUR,Lower middle income
+91,KHM,Cambodia,Western Pacific,WPR,Lower middle income
+92,KIR,Kiribati,Western Pacific,WPR,Lower middle income
+93,KNA,Saint Kitts and Nevis,Americas,AMR,
+94,KOR,Republic of Korea,Western Pacific,WPR,High income
+95,KWT,Kuwait,Eastern Mediterranean,EMR,High income
+96,LAO,Lao People's Democratic Republic,Western Pacific,WPR,Lower middle income
+97,LBN,Lebanon,Eastern Mediterranean,EMR,Lower middle income
+98,LBR,Liberia,Africa,AFR,Low income
+99,LBY,Libya,Eastern Mediterranean,EMR,
+100,LCA,Saint Lucia,Americas,AMR,Upper middle income
+101,LKA,Sri Lanka,South-East Asia,SEAR,Lower middle income
+102,LSO,Lesotho,Africa,AFR,Lower middle income
+103,LTU,Lithuania,Europe,EUR,High income
+104,LUX,Luxembourg,Europe,EUR,High income
+105,LVA,Latvia,Europe,EUR,High income
+106,MAR,Morocco,Eastern Mediterranean,EMR,Lower middle income
+107,MCO,Monaco,Europe,EUR,
+108,MDA,Republic of Moldova,Europe,EUR,Upper middle income
+109,MDG,Madagascar,Africa,AFR,Low income
+110,MDV,Maldives,South-East Asia,SEAR,Upper middle income
+111,MEX,Mexico,Americas,AMR,Upper middle income
+112,MHL,Marshall Islands,Western Pacific,WPR,Upper middle income
+113,MKD,North Macedonia,Europe,EUR,
+114,MLI,Mali,Africa,AFR,Low income
+115,MLT,Malta,Europe,EUR,High income
+116,MMR,Myanmar,South-East Asia,SEAR,Lower middle income
+117,MNE,Montenegro,Europe,EUR,Upper middle income
+118,MNG,Mongolia,Western Pacific,WPR,Upper middle income
+119,MOZ,Mozambique,Africa,AFR,
+120,MRT,Mauritania,Africa,AFR,Lower middle income
+121,MUS,Mauritius,Africa,AFR,Upper middle income
+122,MWI,Malawi,Africa,AFR,Low income
+123,MYS,Malaysia,Western Pacific,WPR,Upper middle income
+124,NAM,Namibia,Africa,AFR,Upper middle income
+125,NER,Niger,Africa,AFR,Low income
+126,NGA,Nigeria,Africa,AFR,Lower middle income
+127,NIC,Nicaragua,Americas,AMR,
+128,NIU,Niue,Western Pacific,WPR,
+129,NLD,Netherlands (Kingdom of the),Europe,EUR,High income
+130,NOR,Norway,Europe,EUR,High income
+131,NPL,Nepal,South-East Asia,SEAR,Lower middle income
+132,NRU,Nauru,Western Pacific,WPR,High income
+133,NZL,New Zealand,Western Pacific,WPR,High income
+134,OMN,Oman,Eastern Mediterranean,EMR,High income
+135,PAK,Pakistan,Eastern Mediterranean,EMR,Lower middle income
+136,PAN,Panama,Americas,AMR,High income
+137,PER,Peru,Americas,AMR,Upper middle income
+138,PHL,Philippines,Western Pacific,WPR,Lower middle income
+139,PLW,Palau,Western Pacific,WPR,High income
+140,PNG,Papua New Guinea,Western Pacific,WPR,Lower middle income
+141,POL,Poland,Europe,EUR,High income
+142,PRK,Democratic People's Republic of Korea,South-East Asia,SEAR,Low income
+143,PRT,Portugal,Europe,EUR,High income
+144,PRY,Paraguay,Americas,AMR,Upper middle income
+145,QAT,Qatar,Eastern Mediterranean,EMR,High income
+146,ROU,Romania,Europe,EUR,High income
+147,RUS,Russian Federation,Europe,EUR,High income
+148,RWA,Rwanda,Africa,AFR,Low income
+149,SAU,Saudi Arabia,Eastern Mediterranean,EMR,High income
+150,SDN,Sudan,Eastern Mediterranean,EMR,
+151,SEN,Senegal,Africa,AFR,Lower middle income
+152,SGP,Singapore,Western Pacific,WPR,High income
+153,SLB,Solomon Islands,Western Pacific,WPR,Lower middle income
+154,SLE,Sierra Leone,Africa,AFR,Low income
+155,SLV,El Salvador,Americas,AMR,Upper middle income
+156,SMR,San Marino,Europe,EUR,
+157,SRB,Serbia,Europe,EUR,Upper middle income
+158,SSD,South Sudan,Africa,AFR,
+159,STP,Sao Tome and Principe,Africa,AFR,Lower middle income
+160,SUR,Suriname,Americas,AMR,
+161,SVK,Slovakia,Europe,EUR,High income
+162,SVN,Slovenia,Europe,EUR,High income
+163,SWE,Sweden,Europe,EUR,High income
+164,SWZ,Eswatini,Africa,AFR,Lower middle income
+165,SYC,Seychelles,Africa,AFR,High income
+166,SYR,Syrian Arab Republic,Eastern Mediterranean,EMR,
+167,TCD,Chad,Africa,AFR,Low income
+168,TGO,Togo,Africa,AFR,Low income
+169,THA,Thailand,South-East Asia,SEAR,Upper middle income
+170,TJK,Tajikistan,Europe,EUR,
+171,TKM,Turkmenistan,Europe,EUR,Upper middle income
+172,TLS,Timor-Leste,South-East Asia,SEAR,Lower middle income
+173,TON,Tonga,Western Pacific,WPR,Upper middle income
+174,TTO,Trinidad and Tobago,Americas,AMR,
+175,TUN,Tunisia,Eastern Mediterranean,EMR,Lower middle income
+176,TUR,Türkiye,Europe,EUR,Upper middle income
+177,TUV,Tuvalu,Western Pacific,WPR,Upper middle income
+178,TZA,United Republic of Tanzania,Africa,AFR,Lower middle income
+179,UGA,Uganda,Africa,AFR,Low income
+180,UKR,Ukraine,Europe,EUR,Upper middle income
+181,URY,Uruguay,Americas,AMR,High income
+182,USA,United States of America,Americas,AMR,High income
+183,UZB,Uzbekistan,Europe,EUR,Lower middle income
+184,VCT,Saint Vincent and the Grenadines,Americas,AMR,
+185,VEN,Venezuela (Bolivarian Republic of),Americas,AMR,
+186,VNM,Viet Nam,Western Pacific,WPR,Lower middle income
+187,VUT,Vanuatu,Western Pacific,WPR,
+188,WSM,Samoa,Western Pacific,WPR,Lower middle income
+189,YEM,Yemen,Eastern Mediterranean,EMR,Low income
+190,ZAF,South Africa,Africa,AFR,Upper middle income
+191,ZMB,Zambia,Africa,AFR,Lower middle income
+192,ZWE,Zimbabwe,Africa,AFR,Lower middle income
