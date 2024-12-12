@@ -1,0 +1,27 @@
+
+Model Metrics File
+
+Final Selected Model: K-Neighbors Classification
+------------------------------------------------
+Hyperparameters:
+- Number of Neighbors: 19
+
+Final Features (with Descriptions):
+- Month: The month of the year when the flight occurred (1-12).
+- Weekday: The day of the week when the flight occurred (0 = Monday, 6 = Sunday).
+- Reporting_Airline: The airline responsible for the flight.
+- Origin: The origin airport of the flight.
+- Dest: The destination airport of the flight.
+- DepTimeBlk: The time block during which the flight departed (e.g., "0600-0659").
+- ArrTimeBlk: The time block during which the flight arrived (e.g., "0600-0659").
+
+Model Objective:
+- Classification
+
+Performance Metrics:
+- F1-macro score (Training): 0.073963
+- F1-macro score (Test): 0.056446
+
+Additional Notes:
+- The continuous target variable 'ActArrDelay' was discretized into 14 classes (0 to 13), each representing a range of arrival delays.
+- The class distribution was imbalanced, requiring the use of metrics like F1-macro to ensure fair evaluation across all classes.
