@@ -52,9 +52,7 @@ After thorough preprocessing, the dataset was reduced from ~81 GB to under 3 GB 
 
 While the mean Actual Arrival Delays showed visible variations across months and weekdays, statistical hypothesis testing using the Chi-square test indicated no significant differences attributable solely to these time periods. The p-value was 10.8% for major airports and 48.2% for minor airports.
 
-![A screenshot of a graph
-
-Description automatically generated]()
+![Figure 2: Temporal Patterns](https://github.com/kholodov-a/Springboard_repo/blob/7ad314d4837b2fb056ff84519021d22ecd935925/CS2-flights-delay-REPO/reports/figures/Pic2_Temporal_Patterns.png)
 
 **Airport and Airline Effects:**
 
@@ -64,9 +62,7 @@ Chi-square tests indicated no statistically significant differences in delay fre
 
 Both visualizations and Chi-square tests highlighted a strong relationship between Actual Arrival Delay and departure/arrival time blocks. Certain times of day appear more prone to delays, justifying the inclusion of time-related categorical features.
 
-![A comparison of a graph
-
-Description automatically generated with medium confidence]()
+![Figure 3: Variation of Median Actual Arrival Delay across Dep/Arr Time Blocks](https://github.com/kholodov-a/Springboard_repo/blob/7ad314d4837b2fb056ff84519021d22ecd935925/CS2-flights-delay-REPO/reports/figures/Pic3_DepArrTimeBlk.png)
 
 **Cancellations and Diversions:**
 
@@ -207,7 +203,7 @@ Produced extremely low F1-macro scores, showing minimal ability to categorize de
 
 The consistently poor results indicate that the selected features—limited to temporal, airline, and airport categorical variables—lack the necessary predictive signals to accurately forecast delays. Flight delays are often driven by factors absent from the dataset, such as real-time weather conditions, mechanical issues, air traffic control restrictions, and crew scheduling constraints. Under these circumstances, the best possible predictions may rely on the distribution of actual arrival delays:
 
-![]()
+![Figure 4: Actual Arrival Delay Distribution](https://github.com/kholodov-a/Springboard_repo/blob/7ad314d4837b2fb056ff84519021d22ecd935925/CS2-flights-delay-REPO/reports/figures/Pic4_ActArrDelay_Distribution.png)
 
 ### 9.4. Future Directions
 
