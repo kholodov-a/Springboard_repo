@@ -40,9 +40,7 @@ To ensure temporal consistency, times – originally recorded in ‘hhmm’ form
 
 • **Consistency Checks:** Flight times and delays were cross-verified. Records with severe inconsistencies, such as large mismatches between expected and actual flight durations, were removed – fewer than 2% of the total dataset.
 
-![A graph with blue and orange dots
-
-Description automatically generated]()
+![Figure 1: Actual Duration of flight vs. Scheduled](https://github.com/kholodov-a/Springboard_repo/blob/04cc62bb1c19739c46186434a1406e388310b12f/CS2-flights-delay-REPO/reports/figures/Pic1_ActualDuration.png)
 
 **Outcome of Data Cleaning:**
 
