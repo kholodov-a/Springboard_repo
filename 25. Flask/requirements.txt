@@ -1,0 +1,6 @@
+Keras==3.8.0
+TensorFlow==2.18.0
+Flask==3.0.3
+NumPy==1.26.4
+Pandas==2.2.2
+Pillow==10.4.0
