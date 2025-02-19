@@ -450,10 +450,14 @@ def retrain():
         plot_confusion_matrix(test_stat['y_true'], test_stat['y_pred'], 
                                 test_stat['classes'], None, show = False)
 
+    # Ensure the directory exists
+    images_dir = './static/Graphs'
+    if not os.path.exists(images_dir):
+        os.makedirs(images_dir)
     # Copy graphs to the static folder for rendering the results HTML page
-    shutil.copy('./Images/Loss.jpg', './static/Graphs/Loss.jpg')
-    shutil.copy('./Images/Accuracy.jpg', './static/Graphs/Accuracy.jpg')
-    shutil.copy('./Images/conf_matrix.jpg', './static/Graphs/conf_matrix.jpg')
+    shutil.copy('./Images/Loss.jpg', f'{images_dir}/Loss.jpg')
+    shutil.copy('./Images/Accuracy.jpg', f'{images_dir}/Accuracy.jpg')
+    shutil.copy('./Images/conf_matrix.jpg', f'{images_dir}/conf_matrix.jpg')
 
     # Rebuild and update the deployed model.
     global model

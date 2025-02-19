@@ -431,8 +431,13 @@ def plot_metrics(train_metrics, val_metrics, ylabel: str, title: str, show = Tru
     plt.title(title)
     plt.legend()
 
-    # Save the plot image to the Images folder using the metric name as the filename    
-    plt.savefig(f'./Images/{ylabel}.jpg')
+    if not (__name__ == '__main__'):
+        # Ensure the directory exists
+        images_dir = './Images'
+        if not os.path.exists(images_dir):
+            os.makedirs(images_dir)
+        # Save the plot image to the Images folder using the metric name as the filename    
+        plt.savefig(f'{images_dir}/{ylabel}.jpg')
 
     # Display the plot if requested
     if show:
@@ -523,7 +528,7 @@ def plot_samples(images, num: int):
     plt.show()
 
 
-def plot_heatmat(data, classes, ax, normalized = False):
+def plot_heatmat(data, classes, ax, title, normalized = False):
     '''
     Plot a heatmap on a given Axes object using seaborn.
 
@@ -531,15 +536,15 @@ def plot_heatmat(data, classes, ax, normalized = False):
         data (array-like): The data matrix to be visualized as a heatmap.
         classes (list): List of class labels to use for the x and y axes.
         ax (matplotlib.axes.Axes): The Axes object on which to plot the heatmap.
+        title (str): The title of the plot.
         normalized (bool, optional): If True, format the annotations as floats (with one decimal place)
                                      and adjust the title to indicate percentage values. Default is False.
 
     Returns:
         None.
     '''
-    # Set annotation format and title based on whether the data is normalized
+    # Set annotation format based on whether the data is normalized
     fmt = '.1f' if normalized else 'd'
-    title = 'Precision Matrix, %' if normalized else 'Confusion Matrix'
 
     # Plot the heatmap with annotations, a blue colormap, and specified class labels
     sns.heatmap(data, annot = True, fmt = fmt, cmap = 'Blues', xticklabels = classes, yticklabels = classes, ax = ax)
@@ -565,23 +570,32 @@ def plot_confusion_matrix(labels, outputs, classes, iteration, show = True):
         None.
     '''
     # Create a subplot with two columns for raw and normalized confusion matrices
-    fig, (ax1, ax2) = plt.subplots(figsize=(12, 5), ncols=2)
+    fig, (ax1, ax2, ax3) = plt.subplots(figsize=(18, 5), ncols = 3)
 
     # Compute the confusion matrix using scikit-learn and plot it
     cm = confusion_matrix(labels, outputs)
-    plot_heatmat(cm, classes, ax1, normalized = False)
+    plot_heatmat(cm, classes, ax1, title = 'Confusion matrix', normalized = False)
 
     # Normalize the confusion matrix to percentages (Precision matrix) and plot it
     cm_normalized = cm.astype('float') / cm.sum(axis = 1, keepdims = True) * 100
-    plot_heatmat(cm_normalized, classes, ax2, normalized = True)
+    plot_heatmat(cm_normalized, classes, ax2, title = 'Precision matrix, %', normalized = True)
 
+    # Normalize the confusion matrix to percentages (Recall matrix) and plot it
+    cm_normalized = cm.astype('float') / cm.sum(axis = 0, keepdims = True) * 100
+    plot_heatmat(cm_normalized, classes, ax3, title = 'Recall matrix, %', normalized = True)
 
     # If an iteration number is provided, add it to the figure title
     if not iteration == None:
         fig.suptitle(f'Iteration: {iteration:d}')
 
-    # Save the combined figure to an image file and display it if required 
-    plt.savefig('./Images/conf_matrix.jpg')
+    if not (__name__ == '__main__'):
+        # Ensure the directory exists
+        images_dir = './Images'
+        if not os.path.exists(images_dir):
+            os.makedirs(images_dir)
+        # Save the combined figure to an image file and display it if required 
+        plt.savefig(f'{images_dir}/conf_matrix.jpg')
+
     if show:
         plt.show() 
 
